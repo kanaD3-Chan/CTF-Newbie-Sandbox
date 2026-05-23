@@ -10,9 +10,6 @@
 
 凯撒大帝用的就是这个——他以为没人能破解。
 
----
+**密文：** `jpek{geiwev_gmtliv_mw_jyr}`
 
-**密文：**
-```
-Wkh iodjv lv: iodj{fdhvdu_flskhu_lv_ixq}
-```
+> Shift 未知，但一共只有 25 种可能。
