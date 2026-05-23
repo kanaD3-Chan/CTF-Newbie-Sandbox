@@ -6,10 +6,10 @@
 
 ---
 
-一个 Android APK。
+一个 Java 的 `.class` 文件。
 
-用 jadx 反编译，找到验证逻辑，逆出正确的输入。
+用 jadx 或 javap 反编译，找到验证逻辑，逆出正确的输入。
 
 ---
 
-**附件：** `app-release.apk`
+**附件：** `FlagChecker.class`
