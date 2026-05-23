@@ -16,7 +16,7 @@ void vuln() {
 int main() {
     setbuf(stdout, NULL);
     setbuf(stdin, NULL);
-    puts("Hello");
+    puts("=== SLsec Pwn: ret2libc ===");
     vuln();
     return 0;
 }

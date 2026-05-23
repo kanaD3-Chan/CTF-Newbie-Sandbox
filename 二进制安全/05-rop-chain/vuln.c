@@ -19,7 +19,7 @@ void vuln() {
 int main() {
     setbuf(stdout, NULL);
     setbuf(stdin, NULL);
-    puts("ok");
+    puts("=== SLsec Pwn: ROP Chain ===");
     /* force system into PLT (dead branch kept by volatile) */
     volatile int x = 0;
     if (x) system("/bin/sh");

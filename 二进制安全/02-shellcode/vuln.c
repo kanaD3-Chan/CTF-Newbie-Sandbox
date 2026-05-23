@@ -10,6 +10,7 @@ void vuln() {
 int main() {
     setbuf(stdout, NULL);
     setbuf(stdin, NULL);
+    puts("=== SLsec Pwn: Shellcode Injection ===");
     vuln();
     return 0;
 }

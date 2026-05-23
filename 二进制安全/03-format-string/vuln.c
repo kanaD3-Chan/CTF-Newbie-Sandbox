@@ -17,6 +17,7 @@ void vuln() {
 int main() {
     setbuf(stdout, NULL);
     setbuf(stdin, NULL);
+    puts("=== SLsec Pwn: Format String ===");
     vuln();
     return 0;
 }

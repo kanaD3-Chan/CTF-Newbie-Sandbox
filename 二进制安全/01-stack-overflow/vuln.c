@@ -14,6 +14,7 @@ void vuln() {
 int main() {
     setbuf(stdout, NULL);
     setbuf(stdin, NULL);
+    puts("=== SLsec Pwn: Stack Overflow (ret2text) ===");
     vuln();
     return 0;
 }

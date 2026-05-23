@@ -62,6 +62,7 @@ void view() {
 int main() {
     setbuf(stdout, NULL);
     setbuf(stdin, NULL);
+    write(1, "=== SLsec Pwn: Heap Basics (Fastbin) ===\n", 41);
     while (1) {
         menu();
         char buf[16];
