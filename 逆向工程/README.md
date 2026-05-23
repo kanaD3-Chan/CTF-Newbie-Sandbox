@@ -11,4 +11,5 @@
 - [x] [壳里面是什么](./07-anti-obfuscation/README.md)
 - [x] [APK 拆开看看](./08-android-reverse/README.md)
 - [x] [Windows 下的逆向](./09-windows-reverse/README.md)
-- [x] [高级语言逆向](./10-highlevel-reverse/README.md)
+- [x] [Rust 逆向](./10-rust-reverse/README.md)
+- [x] [Go 逆向](./11-go-reverse/README.md)
