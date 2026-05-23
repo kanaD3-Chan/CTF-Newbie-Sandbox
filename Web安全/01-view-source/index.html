@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>Nothing Here</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #0d0d0d;
+      color: #33ff33;
+      font-family: 'Courier New', monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+    .terminal {
+      border: 1px solid #33ff33;
+      padding: 2rem 3rem;
+      max-width: 560px;
+      width: 90%;
+      box-shadow: 0 0 24px #33ff3344;
+    }
+    .bar {
+      display: flex;
+      gap: 6px;
+      margin-bottom: 1.2rem;
+    }
+    .dot { width: 12px; height: 12px; border-radius: 50%; }
+    .dot.r { background: #ff5f57; }
+    .dot.y { background: #febc2e; }
+    .dot.g { background: #28c840; }
+    h1 { font-size: 1.1rem; margin-bottom: 1rem; letter-spacing: 2px; }
+    .prompt { color: #888; font-size: 0.85rem; margin-top: 1.4rem; }
+    .blink { animation: blink 1s step-end infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .lock { font-size: 3rem; margin-bottom: 1rem; filter: drop-shadow(0 0 8px #33ff33); }
+  </style>
+</head>
+<body>
+
+<!-- FLAG_PLACEHOLDER -->
+
+<div class="terminal">
+  <div class="bar">
+    <div class="dot r"></div>
+    <div class="dot y"></div>
+    <div class="dot g"></div>
+  </div>
+  <div class="lock">🔒</div>
+  <h1>ACCESS DENIED</h1>
+  <p>此页面没有任何有价值的内容。</p>
+  <p style="margin-top:.6rem;color:#555;">There is nothing to see here.</p>
+  <p class="prompt">$ <span class="blink">_</span></p>
+</div>
+
+</body>
+</html>
