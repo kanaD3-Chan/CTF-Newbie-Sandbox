@@ -1,10 +1,6 @@
 <?php
-$host = '127.0.0.1';
-$user = 'root';
-$pass = '';
-$db   = 'ctfdb';
-
-$conn = new mysqli($host, $user, $pass, $db);
+error_reporting(0);
+include "connect.php";
 
 $flag    = '';
 $error   = '';
