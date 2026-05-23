@@ -8,9 +8,13 @@
 
 两段密文，用的是同一个密钥流加密的。
 
-已知其中一段的明文。
+其中 c1 对应的明文是：
 
-你能解出另一段吗？
+```
+This message contains the flag: XXXXXXXXXXXXXXXXXXXXXXXXXXXXX in it.
+```
+
+既然你知道 c1 的明文，能恢复出 c2 中的 flag 吗？
 
 ---
 

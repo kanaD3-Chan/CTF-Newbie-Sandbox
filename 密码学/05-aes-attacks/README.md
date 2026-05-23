@@ -12,6 +12,10 @@ AES-ECB 模式加密。
 
 这道题利用的就是这个性质——构造特定的输入，推断出 flag。
 
+你有一个 `aes_oracle.py`，其中 `oracle(plaintext)` 函数会加密 `plaintext + flag`。
+
+通过选择不同的 `plaintext`，你可以逐字节推断出 flag 的内容。
+
 ---
 
-**靶机：** `nc 172.16.173.140 [port]`
+**附件：** `aes_oracle.py`

@@ -1,4 +1,17 @@
-# 哈希碰撞
+#!/usr/bin/env python3
+import hashlib
+
+FLAG = "flag{php_md5_0e_is_magic}"
+
+magic_pairs = [
+    ("240610708", "QNKCDZO"),
+    ("aabg7XSs", "aabC9RqS"),
+    ("aaroZmOk", "aaK1STfY"),
+    ("aaO8zKZF", "aa3OFF9m"),
+]
+a, b = magic_pairs[0]
+
+readme = f"""# 哈希碰撞
 
 **出题人：** KanaDE
 **难度：** Easy
@@ -13,11 +26,11 @@
 $password = $_POST['password'];
 $hash = md5($_POST['hash']);
 
-if ($password == $hash) {
-    echo "flag: flag{php_md5_0e_is_magic}";
-} else {
+if ($password == $hash) {{
+    echo "flag: {FLAG}";
+}} else {{
     echo "failed";
-}
+}}
 ?>
 ```
 
@@ -30,3 +43,12 @@ if ($password == $hash) {
 ---
 
 **提交格式：** 两个字符串，空格隔开
+"""
+
+with open('README.md', 'w') as f:
+    f.write(readme)
+
+print(f"Flag: {FLAG}")
+print(f"Answer: {a} {b}")
+print(f"MD5({a}) = {hashlib.md5(a.encode()).hexdigest()}")
+print(f"MD5({b}) = {hashlib.md5(b.encode()).hexdigest()}")
