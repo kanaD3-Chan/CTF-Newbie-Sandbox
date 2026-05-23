@@ -1,9 +1,13 @@
-# AI 安全
+# AI安全
 
 ## 待出题目
 
-- [ ] Prompt Injection · 直接提取系统提示词
-- [ ] Prompt Injection · 编码绕过过滤
-- [ ] 越狱 · 角色扮演绕过
-- [ ] 对抗样本 · FGSM 攻击图像分类器
-- [ ] 模型后门 · 找出触发器
+- [ ] [提示词注入](./01-prompt-injection/README.md)
+- [ ] [越狱](./02-jailbreak/README.md)
+- [ ] [LLM 应用安全](./03-llm-app-security/README.md)
+- [ ] [对抗样本](./04-adversarial-examples/README.md)
+- [ ] [模型提取](./05-model-extraction/README.md)
+- [ ] [多模态攻击](./06-multimodal-attack/README.md)
+- [ ] [联邦学习隐私攻击](./07-federated-learning/README.md)
+- [ ] [AI 安全工具实战](./08-ai-tools/README.md)
+- [ ] [AI CTF 综合挑战](./09-ai-ctf-summary/README.md)

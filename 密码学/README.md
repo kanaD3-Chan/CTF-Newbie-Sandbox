@@ -2,12 +2,12 @@
 
 ## 待出题目
 
-- [ ] 凯撒密码 / ROT13
-- [ ] 维吉尼亚密码
-- [ ] Base64 / Base32 多层编码
-- [ ] RSA · 小 n 分解
-- [ ] RSA · 广播攻击（e=3）
-- [ ] RSA · 共模攻击
-- [ ] AES-ECB · 重放攻击
-- [ ] AES-CBC · 字节翻转
-- [ ] MD5 弱类型比较绕过
+- [ ] [凯撒大帝的密信](./01-classical-cipher/README.md)
+- [ ] [RSA 不是铁板一块](./02-rsa-attacks/README.md)
+- [ ] [AES 的弱点](./03-aes-attacks/README.md)
+- [ ] [哈希碰撞](./04-hash-attacks/README.md)
+- [ ] [流密码的秘密](./05-stream-cipher/README.md)
+- [ ] [数论基础](./06-number-theory/README.md)
+- [ ] [椭圆曲线上的秘密](./07-ecc/README.md)
+- [ ] [密钥交换的漏洞](./08-diffie-hellman/README.md)
+- [ ] [奇怪的编码](./09-misc-crypto/README.md)

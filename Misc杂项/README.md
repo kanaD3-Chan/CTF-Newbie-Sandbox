@@ -1,14 +1,13 @@
-# Misc 杂项
+# Misc杂项
 
 ## 待出题目
 
-- [ ] 多层编码识别（Base64 / Hex / 摩斯）
-- [ ] PNG LSB 隐写
-- [ ] JPEG steghide 隐写
-- [ ] 音频频谱图藏 Flag
-- [ ] ZIP 伪加密
-- [ ] ZIP CRC32 碰撞（小文件）
-- [ ] Wireshark · HTTP 流量提取 Flag
-- [ ] Wireshark · USB 键盘流量还原
-- [ ] 损坏的二维码修复
-- [ ] PNG 宽高修复
+- [ ] [这是什么编码](./01-encoding-tricks/README.md)
+- [ ] [图片里藏着什么](./02-steganography/README.md)
+- [ ] [图片取证](./03-image-forensics/README.md)
+- [ ] [二维码修复](./04-qrcode/README.md)
+- [ ] [流量里的秘密](./05-traffic-analysis/README.md)
+- [ ] [磁盘取证](./06-disk-forensics/README.md)
+- [ ] [应急响应](./07-incident-response/README.md)
+- [ ] [开源情报](./08-osint/README.md)
+- [ ] [区块链上的秘密](./09-blockchain/README.md)

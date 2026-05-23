@@ -1,16 +1,13 @@
-# Web 安全
+# Web安全
 
 ## 待出题目
 
-- [ ] SQL 注入 · 基础联合查询
-- [ ] SQL 注入 · 布尔盲注
-- [ ] SQL 注入 · 时间盲注
-- [ ] 文件上传 · 绕过 MIME 类型检测
-- [ ] 文件上传 · 绕过扩展名黑名单
-- [ ] XSS · 反射型
-- [ ] XSS · 存储型
-- [ ] 命令注入 · 基础绕过
-- [ ] 文件包含 · LFI 读取敏感文件
-- [ ] 文件包含 · PHP 伪协议
-- [ ] SSRF · 内网探测
-- [ ] 越权 · 水平越权
+- [ ] [你好，数据库](./01-sql-injection/README.md)
+- [ ] [上传就完事了？](./02-file-upload/README.md)
+- [ ] [你的 Cookie 我收下了](./03-xss/README.md)
+- [ ] [ping 一下试试](./04-command-injection/README.md)
+- [ ] [include 进来看看](./05-file-inclusion/README.md)
+- [ ] [让服务器帮我访问](./06-ssrf/README.md)
+- [ ] [XML 里藏着什么](./07-xxe/README.md)
+- [ ] [反序列化的代价](./08-deserialization/README.md)
+- [ ] [你没有权限——真的吗](./09-access-control/README.md)
