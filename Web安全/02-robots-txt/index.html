@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>SLsec Blog</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #f5f5f0; font-family: Georgia, serif; color: #222; }
+    header {
+      background: #1a1a2e;
+      color: #eee;
+      padding: 1.2rem 2rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    header h1 { font-size: 1.4rem; letter-spacing: 1px; }
+    header span { color: #7ec8e3; font-size: 0.85rem; }
+    nav { background: #16213e; padding: 0.5rem 2rem; display: flex; gap: 1.5rem; }
+    nav a { color: #aaa; text-decoration: none; font-size: 0.9rem; font-family: monospace; }
+    nav a:hover { color: #7ec8e3; }
+    .hero {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      color: #eee;
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+    .hero h2 { font-size: 2rem; margin-bottom: 0.8rem; }
+    .hero p { color: #aaa; max-width: 500px; margin: 0 auto; }
+    .posts { max-width: 760px; margin: 2rem auto; padding: 0 1rem; }
+    .post {
+      background: #fff;
+      border-left: 4px solid #7ec8e3;
+      padding: 1.2rem 1.5rem;
+      margin-bottom: 1.2rem;
+      box-shadow: 0 1px 4px #0001;
+    }
+    .post h3 { font-size: 1.1rem; margin-bottom: 0.4rem; }
+    .post .meta { color: #888; font-size: 0.8rem; font-family: monospace; margin-bottom: 0.6rem; }
+    .post p { color: #555; font-size: 0.9rem; line-height: 1.6; }
+    footer { text-align: center; padding: 2rem; color: #aaa; font-size: 0.8rem; }
+  </style>
+</head>
+<body>
+<header>
+  <h1>SLsec Blog</h1>
+  <span>// 安全技术分享</span>
+</header>
+<nav>
+  <a href="/">首页</a>
+  <a href="#">文章</a>
+  <a href="#">关于</a>
+</nav>
+<div class="hero">
+  <h2>欢迎来到 SLsec 技术博客</h2>
+  <p>这里分享网络安全、CTF 解题思路与工具使用技巧。</p>
+</div>
+<div class="posts">
+  <div class="post">
+    <h3>SQL 注入入门：从原理到实战</h3>
+    <div class="meta">2025-03-12 · KanaDE · Web安全</div>
+    <p>本文介绍 SQL 注入的基本原理，以及如何使用 sqlmap 进行自动化测试……</p>
+  </div>
+  <div class="post">
+    <h3>CTF 中的文件上传漏洞总结</h3>
+    <div class="meta">2025-02-28 · KanaDE · Web安全</div>
+    <p>文件上传漏洞是 CTF 中的常见题型，本文总结了常见的绕过姿势……</p>
+  </div>
+  <div class="post">
+    <h3>Wireshark 流量分析实战</h3>
+    <div class="meta">2025-01-15 · KanaDE · Misc</div>
+    <p>通过一道 CTF 题目，学习如何用 Wireshark 分析 HTTP 流量并提取关键信息……</p>
+  </div>
+</div>
+<footer>© 2025 SLsec Lab · Powered by Nginx</footer>
+</body>
+</html>
